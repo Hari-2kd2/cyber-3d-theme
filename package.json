@@ -1,0 +1,56 @@
+{
+  "name": "cyber-3d-theme",
+  "displayName": "Cyber 3D Theme Suite (Gamer, Anime & Dev)",
+  "description": "Stunning 3D Neon Gamer, Cyber Tokyo Anime, and Developer Pro Themes with 3D Isometric File Icons and Backgrounds",
+  "version": "1.0.0",
+  "publisher": "hari9578",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "gamer",
+    "3d",
+    "anime",
+    "developer",
+    "neon",
+    "cyberpunk"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cyber Gamer 3D",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyber-gamer-3d.json"
+      },
+      {
+        "label": "Anime Cyber Tokyo",
+        "uiTheme": "vs-dark",
+        "path": "./themes/anime-cyber-tokyo.json"
+      },
+      {
+        "label": "Developer Pro 3D",
+        "uiTheme": "vs-dark",
+        "path": "./themes/developer-pro-3d.json"
+      }
+    ],
+    "iconThemes": [
+      {
+        "id": "gamer-3d-icons",
+        "label": "Gamer 3D Isometric Icons",
+        "path": "./icons/icon-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hari9578/cyber-3d-theme.git"
+  },
+  "author": {
+    "name": "Hari",
+    "email": "hari9578@gmail.com"
+  },
+  "homepage": "https://github.com/hari9578/cyber-3d-theme#readme"
+}

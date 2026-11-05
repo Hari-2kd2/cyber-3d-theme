@@ -1,0 +1,110 @@
+{
+  "name": "Anime Cyber Tokyo",
+  "type": "dark",
+  "colors": {
+    "focusBorder": "#e056fd88",
+    "foreground": "#e0d6ff",
+    "widget.shadow": "#000000bb",
+    "selection.background": "#ff70a633",
+    "descriptionForeground": "#9b8ec4",
+    "titleBar.activeBackground": "#120d24",
+    "titleBar.activeForeground": "#ff70a6",
+    "titleBar.border": "#2d1b54",
+    "activityBar.background": "#0e0a1c",
+    "activityBar.foreground": "#ff70a6",
+    "activityBar.inactiveForeground": "#63518a",
+    "activityBarBadge.background": "#70d6ff",
+    "activityBarBadge.foreground": "#0e0a1c",
+    "activityBar.activeBorder": "#ff70a6",
+    "sideBar.background": "#150f2b",
+    "sideBar.foreground": "#e0d6ff",
+    "sideBar.border": "#261a47",
+    "sideBarTitle.foreground": "#ff70a6",
+    "sideBarSectionHeader.background": "#1d153b",
+    "sideBarSectionHeader.foreground": "#70d6ff",
+    "editorGroupHeader.tabsBackground": "#0e0a1c",
+    "tab.activeBackground": "#1d153d",
+    "tab.activeForeground": "#ff70a6",
+    "tab.activeBorderTop": "#ff70a6",
+    "tab.inactiveBackground": "#120d24",
+    "tab.inactiveForeground": "#7d6b9f",
+    "editor.background": "#17112e",
+    "editor.foreground": "#f3e8ff",
+    "editorLineNumber.foreground": "#4f3c73",
+    "editorLineNumber.activeForeground": "#ff70a6",
+    "editorCursor.foreground": "#70d6ff",
+    "editor.selectionBackground": "#ff70a628",
+    "editor.lineHighlightBackground": "#22194566",
+    "editorBracketMatch.border": "#70d6ff",
+    "statusBar.background": "#0e0a1c",
+    "statusBar.foreground": "#b39ddb",
+    "statusBar.border": "#261a47",
+    "terminal.background": "#120d24",
+    "terminal.foreground": "#e0d6ff",
+    "button.background": "#ff70a6",
+    "button.foreground": "#0e0a1c",
+    "button.hoverBackground": "#ff8ab7",
+    "input.background": "#1d153d",
+    "input.border": "#70d6ff55"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment"
+      ],
+      "settings": {
+        "foreground": "#6f5b94",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "string"
+      ],
+      "settings": {
+        "foreground": "#ffd670"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#ff9770"
+      }
+    },
+    {
+      "scope": [
+        "keyword"
+      ],
+      "settings": {
+        "foreground": "#ff70a6",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function"
+      ],
+      "settings": {
+        "foreground": "#70d6ff"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type"
+      ],
+      "settings": {
+        "foreground": "#e056fd"
+      }
+    },
+    {
+      "scope": [
+        "variable"
+      ],
+      "settings": {
+        "foreground": "#f3e8ff"
+      }
+    }
+  ]
+}

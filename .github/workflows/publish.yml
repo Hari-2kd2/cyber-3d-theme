@@ -1,0 +1,50 @@
+name: Build, Release and Publish Theme
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install VSCE Package Tool
+        run: npm install -g @vscode/vsce
+
+      - name: Package VSIX
+        run: vsce package --allow-missing-repository
+
+      - name: Upload VSIX Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cyber-3d-theme-vsix
+          path: '*.vsix'
+
+      - name: Create GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: '*.vsix'
+          draft: false
+          prerelease: false
+          generate_release_notes: true
+
+      - name: Publish to VS Code Marketplace
+        if: startsWith(github.ref, 'refs/tags/v') && env.VS_MARKETPLACE_TOKEN != ''
+        run: vsce publish -p ${{ secrets.VS_MARKETPLACE_TOKEN }}
+        env:
+          VS_MARKETPLACE_TOKEN: ${{ secrets.VS_MARKETPLACE_TOKEN }}
