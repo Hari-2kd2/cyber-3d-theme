@@ -1,14 +1,29 @@
 /* ==========================================================================
-   Cyber 3D Suite — Sharp High-Contrast 3D & Neon UI Animations
+   Cyber 3D Suite — Sharp High-Contrast 3D & Neon UI with 3D Background
    ========================================================================== */
 
 /* 1. Ensure 100% Razor Sharp Text (No Blur / No text-shadow) */
 .monaco-editor .view-lines {
   -webkit-font-smoothing: antialiased !important;
   text-rendering: optimizeLegibility !important;
+  background-color: rgba(8, 10, 18, 0.75) !important;
 }
 
-/* 2. Fluid High-Voltage Animated Cursor */
+/* 2. 3D Cyber Perspective Grid Background */
+.monaco-workbench .part.editor > .content,
+.monaco-editor,
+.monaco-editor .overflow-guard {
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxOTIwIDEwODAiIHdpZHRoPSIxOTIwIiBoZWlnaHQ9IjEwODAiPgogIDxkZWZzPgogICAgPHJhZGlhbEdyYWRpZW50IGlkPSJnMSIgY3g9IjUwJSIgY3k9IjUwJSIgcj0iNjUlIj4KICAgICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzEyMTgyYiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iIzA4MGExMiIvPgogICAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwNDA1MDgiLz4KICAgIDwvcmFkaWFsR3JhZGllbnQ+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImdyaWQxIiB4MT0iMCIgeTE9IjEiIHgyPSIwIiB5Mj0iMCI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCUiIHN0b3AtY29sb3I9IiMwMGU1ZmYiIHN0b3Atb3BhY2l0eT0iMC40Ii8+CiAgICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmMDA3ZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8L2xpbmVhckdyYWRpZW50PgogIDwvZGVmcz4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2cxKSIvPgogIDxnIHN0cm9rZT0idXJsKCNncmlkMSkiIHN0cm9rZS13aWR0aD0iMS41Ij4KICAgIDxsaW5lIHgxPSIwIiB5MT0iNjgwIiB4Mj0iMTkyMCIgeTI9IjY4MCIgc3Ryb2tlPSIjMDBlNWZmIiBzdHJva2Utd2lkdGg9IjIiIG9wYWNpdHk9IjAuNyIvPgogICAgPGxpbmUgeDE9Ijk2MCIgeTE9IjY4MCIgeDI9IjAiIHkyPSIxMDgwIi8+CiAgICA8bGluZSB4MT0iOTYwIiB5MT0iNjgwIiB4Mj0iNDgwIiB5Mj0iMTA4MCIvPgogICAgPGxpbmUgeDE9Ijk2MCIgeTE9IjY4MCIgeDI9Ijk2MCIgeTI9IjEwODAiLz4KICAgIDxsaW5lIHgxPSI5NjAiIHkxPSI2ODAiIHgyPSIxNDQwIiB5Mj0iMTA4MCIvPgogICAgPGxpbmUgeDE9Ijk2MCIgeTE9IjY4MCIgeDI9IjE5MjAiIHkyPSIxMDgwIi8+CiAgICA8bGluZSB4MT0iMCIgeTE9IjcwMCIgeDI9IjE5MjAiIHkyPSI3MDAiIG9wYWNpdHk9IjAuMyIvPgogICAgPGxpbmUgeDE9IjAiIHkxPSI3NTAiIHgyPSIxOTIwIiB5Mj0iNzUwIiBvcGFjaXR5PSIwLjUiLz4KICAgIDxsaW5lIHgxPSIwIiB5MT0iODUwIiB4Mj0iMTkyMCIgeTI9Ijg1MCIgb3BhY2l0eT0iMC43Ii8+CiAgICA8bGluZSB4MT0iMCIgeTE9IjEwMDAiIHgyPSIxOTIwIiB5Mj0iMTAwMCIgb3BhY2l0eT0iMC45Ii8+CiAgPC9nPgogIDxjaXJjbGUgY3g9Ijk2MCIgY3k9IjUwMCIgcj0iMTAwIiBmaWxsPSJub25lIiBzdHJva2U9IiNmZjAwN2YiIHN0cm9rZS13aWR0aD0iMyIgb3BhY2l0eT0iMC40Ii8+CiAgPHBvbHlnb24gcG9pbnRzPSI5NjAsNDQwIDEwMjAsNDgwIDEwMjAsNTQwIDk2MCw1ODAgOTAwLDU0MCA5MDAsNDgwIiBmaWxsPSJub25lIiBzdHJva2U9IiMwMGU1ZmYiIHN0cm9rZS13aWR0aD0iMiIgb3BhY2l0eT0iMC42Ii8+Cjwvc3ZnPg==') !important;
+  background-size: cover !important;
+  background-position: center bottom !important;
+  background-repeat: no-repeat !important;
+}
+
+.monaco-editor .monaco-editor-background {
+  background-color: transparent !important;
+}
+
+/* 3. Fluid High-Voltage Animated Cursor */
 .monaco-editor .cursors-layer .cursor {
   box-shadow: 0 0 10px #00ff88, 0 0 20px #00e5ff !important;
   border-radius: 2px !important;
@@ -24,9 +39,9 @@
   }
 }
 
-/* 3. 3D Laser Pulsing Active Tab */
+/* 4. 3D Laser Pulsing Active Tab */
 .tab.active {
-  background: linear-gradient(180deg, rgba(0, 229, 255, 0.12) 0%, rgba(13, 17, 30, 0.85) 100%) !important;
+  background: linear-gradient(180deg, rgba(0, 229, 255, 0.15) 0%, rgba(13, 17, 30, 0.9) 100%) !important;
   box-shadow: 0 0 15px rgba(0, 229, 255, 0.35), inset 0 2px 0 #00e5ff !important;
   border-bottom: 2px solid #00ff88 !important;
   animation: tab-cyber-glow 3s infinite alternate ease-in-out !important;
@@ -44,25 +59,25 @@
   }
 }
 
-/* 4. Glowing Activity Bar Selected Icon */
+/* 5. Glowing Activity Bar Selected Icon */
 .activitybar .monaco-action-bar .action-item.checked .action-label,
 .activitybar .monaco-action-bar .action-item.active .action-label {
   filter: drop-shadow(0 0 8px #00e5ff) !important;
 }
 
-/* 5. 3D Glowing Active Line Framing */
+/* 6. 3D Glowing Active Line Framing */
 .monaco-editor .current-line {
   border: 1px solid rgba(0, 229, 255, 0.35) !important;
   box-shadow: 0 0 10px rgba(0, 229, 255, 0.1) inset !important;
   border-radius: 4px !important;
 }
 
-/* 6. Glowing Notification Badges */
+/* 7. Glowing Notification Badges */
 .activitybar .badge .badge-content {
   box-shadow: 0 0 10px #ff007f !important;
 }
 
-/* 7. Neon Laser Status Bar Line */
+/* 8. Neon Laser Status Bar Line */
 .part.statusbar {
   border-top: 1px solid #00e5ff88 !important;
   box-shadow: 0 -2px 10px rgba(0, 229, 255, 0.25) !important;
