@@ -1,68 +1,100 @@
-/* =========================================================
-   Cyber 3D Suite - Modern Neon & 3D CSS Animations
-   ========================================================= */
+/* ==========================================================================
+   Cyber 3D Suite — High-Voltage Neon & 3D Animated Effects
+   ========================================================================== */
 
-/* 1. Neon Pulsing Active Tab */
-.tab.active {
-  position: relative;
-  box-shadow: 0 0 15px rgba(0, 229, 255, 0.45) !important;
-  animation: tab-pulse 3s infinite alternate ease-in-out !important;
+/* 1. Neon Glowing Code Text (Synthwave / Matrix / Cyberpunk Laser Glow) */
+.monaco-editor .mtk1,
+.monaco-editor .mtk2,
+.monaco-editor .mtk3,
+.monaco-editor .mtk4,
+.monaco-editor .mtk5,
+.monaco-editor .mtk6,
+.monaco-editor .mtk7,
+.monaco-editor .mtk8 {
+  text-shadow: 0 0 4px currentColor, 0 0 10px currentColor !important;
 }
 
-@keyframes tab-pulse {
-  0% {
-    box-shadow: 0 0 8px rgba(0, 229, 255, 0.25);
-    border-top-color: #00e5ff;
-  }
-  50% {
-    box-shadow: 0 0 18px rgba(255, 0, 127, 0.4);
-    border-top-color: #ff007f;
-  }
-  100% {
-    box-shadow: 0 0 12px rgba(0, 255, 136, 0.35);
-    border-top-color: #00ff88;
-  }
-}
-
-/* 2. Fluid Glowing Cursor with 3D Aura */
+/* 2. Fluid High-Voltage Animated Cursor */
 .monaco-editor .cursors-layer .cursor {
-  box-shadow: 0 0 12px #00e5ff, 0 0 24px #ff007f !important;
-  animation: cursor-glow 2s infinite ease-in-out alternate !important;
+  box-shadow: 0 0 12px #00ff88, 0 0 24px #00e5ff, 0 0 36px #00ff88 !important;
+  border-radius: 2px !important;
+  animation: cyber-cursor-pulse 1.6s infinite alternate ease-in-out !important;
 }
 
-@keyframes cursor-glow {
+@keyframes cyber-cursor-pulse {
   0% {
-    box-shadow: 0 0 8px #00e5ff, 0 0 16px rgba(0, 229, 255, 0.4);
+    box-shadow: 0 0 8px #00ff88, 0 0 18px #00e5ff;
+    opacity: 0.9;
   }
   100% {
-    box-shadow: 0 0 14px #ff007f, 0 0 28px rgba(255, 0, 127, 0.6);
+    box-shadow: 0 0 16px #00e5ff, 0 0 32px #ff007f;
+    opacity: 1;
   }
 }
 
-/* 3. Activity Bar Active Badge Glow */
-.activitybar .badge .badge-content {
-  box-shadow: 0 0 12px #ff007f !important;
-  animation: badge-pulse 1.8s infinite ease-in-out !important;
+/* 3. 3D Laser Pulsing Active Tab */
+.tab.active {
+  background: linear-gradient(180deg, rgba(0, 229, 255, 0.15) 0%, rgba(13, 17, 30, 0.9) 100%) !important;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.4), inset 0 2px 0 #00e5ff !important;
+  border-bottom: 2px solid #00ff88 !important;
+  animation: tab-cyber-glow 3s infinite alternate ease-in-out !important;
 }
 
-@keyframes badge-pulse {
-  0%, 100% {
-    transform: scale(1);
-    box-shadow: 0 0 8px #ff007f;
+@keyframes tab-cyber-glow {
+  0% {
+    box-shadow: 0 0 12px rgba(0, 229, 255, 0.3), inset 0 2px 0 #00e5ff;
   }
   50% {
-    transform: scale(1.08);
-    box-shadow: 0 0 18px #ff007f, 0 0 25px #00e5ff;
+    box-shadow: 0 0 25px rgba(255, 0, 127, 0.5), inset 0 2px 0 #ff007f;
+  }
+  100% {
+    box-shadow: 0 0 18px rgba(0, 255, 136, 0.4), inset 0 2px 0 #00ff88;
   }
 }
 
-/* 4. Smooth 3D Status Bar Accent */
-.part.statusbar {
-  border-top: 1px solid rgba(0, 229, 255, 0.3) !important;
-  box-shadow: 0 -2px 10px rgba(0, 229, 255, 0.15) !important;
+/* 4. Glowing Activity Bar Selected Icon */
+.activitybar .monaco-action-bar .action-item.checked .action-label,
+.activitybar .monaco-action-bar .action-item.active .action-label {
+  filter: drop-shadow(0 0 8px #00e5ff) drop-shadow(0 0 15px #00ff88) !important;
+  animation: icon-float 2.5s infinite alternate ease-in-out !important;
 }
 
-/* 5. 3D Line Highlight Framing */
-.monaco-editor .current-line ~ .current-line-margin {
-  border-left: 2px solid #00e5ff !important;
+@keyframes icon-float {
+  0% {
+    filter: drop-shadow(0 0 6px #00e5ff);
+  }
+  100% {
+    filter: drop-shadow(0 0 14px #ff007f);
+  }
+}
+
+/* 5. 3D Glowing Active Line Framing */
+.monaco-editor .current-line {
+  border: 1px solid rgba(0, 229, 255, 0.35) !important;
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.15) inset, 0 0 10px rgba(0, 229, 255, 0.1) !important;
+  border-radius: 4px !important;
+}
+
+/* 6. Glowing Activity Bar Notification Badges */
+.activitybar .badge .badge-content {
+  box-shadow: 0 0 12px #ff007f, 0 0 20px #ff007f !important;
+  animation: badge-glow 1.5s infinite alternate ease-in-out !important;
+}
+
+@keyframes badge-glow {
+  0% { transform: scale(1); box-shadow: 0 0 8px #ff007f; }
+  100% { transform: scale(1.08); box-shadow: 0 0 18px #ff007f, 0 0 26px #00e5ff; }
+}
+
+/* 7. Neon Laser Status Bar Line */
+.part.statusbar {
+  border-top: 1px solid #00e5ff88 !important;
+  box-shadow: 0 -2px 14px rgba(0, 229, 255, 0.35) !important;
+}
+
+/* 8. Glowing Scrollbar Slider */
+.monaco-scrollable-element > .scrollbar > .slider {
+  background: rgba(0, 229, 255, 0.3) !important;
+  box-shadow: 0 0 8px rgba(0, 229, 255, 0.5) !important;
+  border-radius: 4px !important;
 }
