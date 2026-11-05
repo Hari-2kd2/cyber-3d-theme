@@ -1,0 +1,88 @@
+{
+  "iconDefinitions": {
+    "_file": {
+      "iconPath": "./svg/file.svg"
+    },
+    "_js": {
+      "iconPath": "./svg/js.svg"
+    },
+    "_ts": {
+      "iconPath": "./svg/ts.svg"
+    },
+    "_py": {
+      "iconPath": "./svg/py.svg"
+    },
+    "_php": {
+      "iconPath": "./svg/php.svg"
+    },
+    "_html": {
+      "iconPath": "./svg/html.svg"
+    },
+    "_css": {
+      "iconPath": "./svg/css.svg"
+    },
+    "_json": {
+      "iconPath": "./svg/json.svg"
+    },
+    "_go": {
+      "iconPath": "./svg/go.svg"
+    },
+    "_md": {
+      "iconPath": "./svg/md.svg"
+    },
+    "_git": {
+      "iconPath": "./svg/git.svg"
+    },
+    "_env": {
+      "iconPath": "./svg/env.svg"
+    },
+    "_sql": {
+      "iconPath": "./svg/sql.svg"
+    },
+    "_sh": {
+      "iconPath": "./svg/sh.svg"
+    },
+    "_yaml": {
+      "iconPath": "./svg/yaml.svg"
+    },
+    "_folder": {
+      "iconPath": "./svg/folder.svg"
+    },
+    "_folder-open": {
+      "iconPath": "./svg/folder-open.svg"
+    }
+  },
+  "file": "_file",
+  "folder": "_folder",
+  "folderExpanded": "_folder-open",
+  "fileExtensions": {
+    "js": "_js",
+    "mjs": "_js",
+    "cjs": "_js",
+    "ts": "_ts",
+    "py": "_py",
+    "php": "_php",
+    "html": "_html",
+    "htm": "_html",
+    "css": "_css",
+    "scss": "_css",
+    "json": "_json",
+    "go": "_go",
+    "md": "_md",
+    "git": "_git",
+    "gitignore": "_git",
+    "env": "_env",
+    "sql": "_sql",
+    "sh": "_sh",
+    "bash": "_sh",
+    "yml": "_yaml",
+    "yaml": "_yaml"
+  },
+  "fileNames": {
+    ".env": "_env",
+    ".gitignore": "_git",
+    "package.json": "_json",
+    "composer.json": "_php",
+    "README.md": "_md"
+  }
+}

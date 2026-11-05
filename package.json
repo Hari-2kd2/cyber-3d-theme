@@ -1,8 +1,8 @@
 {
   "name": "cyber-3d-theme",
-  "displayName": "Cyber 3D Theme Suite (Gamer, Anime & Dev)",
-  "description": "Stunning 3D Neon Gamer, Cyber Tokyo Anime, and Developer Pro Themes with 3D Isometric File Icons and Backgrounds",
-  "version": "1.0.0",
+  "displayName": "Cyber 3D Suite \u2014 10 Gamer, Anime & Dev Themes",
+  "description": "10 Animated High-Level 3D Themes, 4 File Icon Themes, 2 Product Icon Themes, Fluid Caret Physics, and 3D Wallpapers",
+  "version": "1.2.0",
   "publisher": "hari9578",
   "engines": {
     "vscode": "^1.60.0"
@@ -31,16 +31,78 @@
         "path": "./themes/anime-cyber-tokyo.json"
       },
       {
-        "label": "Developer Pro 3D",
+        "label": "Anime Super Saiyan God",
         "uiTheme": "vs-dark",
-        "path": "./themes/developer-pro-3d.json"
+        "path": "./themes/super-saiyan-god.json"
+      },
+      {
+        "label": "Gamer RTX Obsidian RayTrace",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rtx-obsidian-raytrace.json"
+      },
+      {
+        "label": "Anime Mecha EVA-01",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mecha-eva-unit01.json"
+      },
+      {
+        "label": "Developer Quantum Matrix 3D",
+        "uiTheme": "vs-dark",
+        "path": "./themes/developer-quantum-matrix.json"
+      },
+      {
+        "label": "Gamer Arcane Hextech 3D",
+        "uiTheme": "vs-dark",
+        "path": "./themes/arcane-hextech-3d.json"
+      },
+      {
+        "label": "Anime Ghost Netrunner",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ghost-netrunner.json"
+      },
+      {
+        "label": "Cyberpunk 2077 Edgerunner",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cyberpunk-edgerunner.json"
+      },
+      {
+        "label": "Developer Cosmic Nebula 3D",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cosmic-nebula-3d.json"
       }
     ],
     "iconThemes": [
       {
-        "id": "gamer-3d-icons",
-        "label": "Gamer 3D Isometric Icons",
-        "path": "./icons/icon-theme.json"
+        "id": "gamer-3d-neon",
+        "label": "Gamer 3D Isometric Neon",
+        "path": "./icons/gamer-neon/icon-theme.json"
+      },
+      {
+        "id": "anime-3d-sakura",
+        "label": "Anime Cyber Sakura 3D",
+        "path": "./icons/anime-sakura/icon-theme.json"
+      },
+      {
+        "id": "dev-3d-matrix",
+        "label": "Developer Matrix 3D",
+        "path": "./icons/dev-matrix/icon-theme.json"
+      },
+      {
+        "id": "obsidian-3d-gold",
+        "label": "Gamer Obsidian Gold 3D",
+        "path": "./icons/obsidian-gold/icon-theme.json"
+      }
+    ],
+    "productIconThemes": [
+      {
+        "id": "cyber-gamer-product-icons",
+        "label": "Cyber Gamer Product Icons",
+        "path": "./product-icons/cyber-gamer/product-icon-theme.json"
+      },
+      {
+        "id": "anime-tokyo-product-icons",
+        "label": "Anime Neo Tokyo Product Icons",
+        "path": "./product-icons/anime-tokyo/product-icon-theme.json"
       }
     ]
   },

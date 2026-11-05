@@ -1,78 +1,124 @@
-# Cyber 3D Theme Suite (Gamer, Anime & Dev) 🎮🌸💻
+# Cyber 3D Suite — 10 Animated Gamer, Anime & Dev Themes 🎮🌸💻
 
-A futuristic visual suite for **Antigravity IDE** and **Visual Studio Code**, featuring vibrant neon-glow color themes, 3D isometric file icons, and cyberpunk wallpapers.
+A high-level aesthetic collection of **10 ultra-modern, 3D animated themes**, **4 3D File Icon Themes**, **2 Product Icon Themes**, fluid cursor physics, animated neon glow, and 10 custom wallpapers for **Antigravity IDE** and **Visual Studio Code**.
 
 ---
 
-## 🎨 Themes Included
+## 🎨 10 High-Level Animated Themes
 
-| Theme Name | Style & Aesthetic | Best For |
+| # | Theme Name | Category | Aesthetic & Color Highlights |
+|---|---|---|---|
+| **01** | **Cyber Gamer 3D** | Gamer | Deep obsidian `#080a12`, laser neon cyan (`#00e5ff`), hot pink (`#ff007f`), electric lime. |
+| **02** | **Anime Cyber Tokyo** | Anime | Synthwave midnight `#0e0a1c`, Sakura neon pink (`#ff70a6`), lavender blue, golden sun. |
+| **03** | **Anime Super Saiyan God** | Anime | Deep crimson abyss `#120707`, fiery gold aura (`#ffbe0b`), plasma pink, divine energy sparks. |
+| **04** | **Gamer RTX Obsidian RayTrace** | Gamer | Carbon titanium `#070908`, ray-traced GeForce emerald (`#76b900`), electric mint, icy blue. |
+| **05** | **Anime Mecha EVA-01** | Anime | Tokyo-3 shadow `#0d0818`, fluorescent EVA purple (`#a855f7`), hazard green (`#22c55e`), orange. |
+| **06** | **Developer Quantum Matrix 3D** | Dev | Terminal deep void `#030806`, quantum phosphor green (`#00ff66`), holographic jade. |
+| **07** | **Gamer Arcane Hextech 3D** | Gamer | Piltover sapphire `#070e17`, glowing hextech cyan (`#00e1d9`), gilded brass gold. |
+| **08** | **Anime Ghost Netrunner** | Anime | Cold slate `#090d14`, cybernetic cobalt (`#38bdf8`), neural violet (`#818cf8`), data-stream teal. |
+| **09** | **Cyberpunk 2077 Edgerunner** | Gamer/Anime | Night City asphalt `#0c0c0c`, high-voltage Sandevistan yellow (`#fcee0a`), street cyan (`#00f0ff`). |
+| **10** | **Developer Cosmic Nebula 3D** | Dev | Deep cosmos `#080614`, ultraviolet nebula (`#c084fc`), starlight pink (`#f472b6`), celestial blue. |
+
+---
+
+## 🧊 4 Distinct 3D File Icon Themes
+
+Choose between 4 custom-crafted 3D isometric file and folder icon sets:
+
+| File Icon Theme | Style & Colorway | Best Paired With |
 |---|---|---|
-| **Cyber Gamer 3D** | Deep obsidian `#0e111c` with glowing Neon Cyan (`#00e5ff`), Hot Pink (`#ff007f`), and Electric Lime (`#00ff88`). | Gaming setups, mechanical keyboard vibes, immersive night coding. |
-| **Anime Cyber Tokyo** | Midnight violet `#17112e` with Sakura Blossom Pink (`#ff70a6`), Synthwave Lavender (`#70d6ff`), and Golden Sun. | Anime fans, Lo-Fi / Synthwave coding sessions. |
-| **Developer Pro 3D** | High-contrast engineering slate `#0e1420` with Emerald Hacker Green (`#10b981`), Sky Blue (`#38bdf8`), and Tangerine. | Clean, high-legibility syntax highlighting for long sprints. |
+| **Gamer 3D Isometric Neon** | Glowing neon cyan & laser magenta isometric cubes with gradient bevels | *Cyber Gamer 3D*, *Edgerunner* |
+| **Anime Cyber Sakura 3D** | Pastel neon sakura pink, lavender, and golden isometric badges | *Anime Cyber Tokyo*, *EVA-01* |
+| **Developer Matrix 3D** | Cyber emerald & phosphor green terminal cubes with 3D depth | *Quantum Matrix*, *RTX RayTrace* |
+| **Gamer Obsidian Gold 3D** | Polished carbon obsidian with metallic gilded gold 3D accents | *Arcane Hextech*, *Saiyan God* |
 
 ---
 
-## 🧊 3D Isometric File Icons
+## ⚡ 2 Custom Product Icon Themes
 
-Includes **Gamer 3D Isometric Icons** — custom-designed isometric cubes with gradient lighting and depth:
-- **Folders**: 3D Cyber Holo-Folders (distinct closed & open states).
-- **Languages**: 3D Isometric Badges for JavaScript, TypeScript, Python, PHP, Go, HTML, CSS, SQL, Shell, Markdown, YAML, Docker, Git, and environment configs.
+Transform the entire workbench interface (Activity Bar, Explorer, Git, Debug, Extensions, Settings):
+- **Cyber Gamer Product Icons**: High-tech cybernetic glyphs for the entire IDE workbench.
+- **Anime Neo Tokyo Product Icons**: Stylized aesthetic icons with neon accents.
 
 ---
 
-## 🚀 Quick Start & Installation
+## ✨ Fluid Caret & 3D Smooth Animations
 
-### Option 1: Direct VSIX Install (Easiest for Friends)
-Share the built `cyber-3d-theme-1.0.0.vsix` with your friends:
-1. Open **Antigravity IDE** or **VS Code**.
-2. Press `Ctrl + Shift + X` to open the Extensions view.
-3. Click the three dots `...` (Views and More Actions) at the top right of the extensions pane.
-4. Select **Install from VSIX...**
-5. Select `cyber-3d-theme-1.0.0.vsix`.
+To unlock fluid 3D sliding cursor animations, smooth 60fps scrolling, and rainbow bracket guides:
 
-Alternatively, install via terminal:
-```bash
-antigravity --install-extension cyber-3d-theme-1.0.0.vsix
-# or for standard VS Code:
-code --install-extension cyber-3d-theme-1.0.0.vsix
+Add the following to your `settings.json` (`Ctrl + Shift + P` → `Preferences: Open User Settings (JSON)`):
+
+```json
+{
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "workbench.list.smoothScrolling": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.renderLineHighlight": "all"
+}
 ```
 
-### Option 2: Activating the Theme
-1. Press `Ctrl + K, Ctrl + T` (or `Ctrl + Shift + P` -> `Preferences: Color Theme`).
-2. Choose **Cyber Gamer 3D**, **Anime Cyber Tokyo**, or **Developer Pro 3D**.
-3. Press `Ctrl + Shift + P` -> `Preferences: File Icon Theme` -> Select **Gamer 3D Isometric Icons**.
+### 🌟 Animated Neon Tab & Cursor Glow (CSS Animation)
+Included in `animations/cyber-animations.css`:
+- **Pulsating Neon Active Tabs**: Glowing border cycles between cyan, pink, and lime.
+- **Glowing Animated Cursor**: 3D neon aura follows your typing in real time.
+- Run `bash animations/enable-animations.sh` for one-click setup!
 
 ---
 
-## 📦 Automatic Publishing Pipeline (GitHub Actions)
+## 🌌 10 High-Resolution Background Wallpapers
 
-This repository includes a preconfigured GitHub Actions workflow in `.github/workflows/publish.yml`:
-
-- **Automatic Packaging**: Packages the `.vsix` on every push to `main`.
-- **Automatic GitHub Releases**: When you push a Git tag (e.g. `v1.0.0`), it creates a GitHub Release and attaches the `.vsix` file so anyone can download it directly.
-- **Marketplace Publishing**: When `VS_MARKETPLACE_TOKEN` is configured in your GitHub repository secrets, it publishes directly to the Visual Studio Marketplace.
-
-### Setting up the Marketplace Token:
-1. Go to [Azure DevOps](https://dev.azure.com/) and create a **Personal Access Token (PAT)** with **Marketplace (Publish)** permissions.
-2. In your GitHub repository, go to **Settings > Secrets and variables > Actions**.
-3. Add a secret named `VS_MARKETPLACE_TOKEN` with your PAT.
-4. Push a new tag:
-   ```bash
-   git tag v1.0.0
-   git push origin v1.0.0
-   ```
+Vector SVG wallpapers are included in `backgrounds/` to match each theme:
+- `01-cyber-gamer-3d.svg` — 3D Perspective Grid & Laser Core
+- `02-anime-cyber-tokyo.svg` — Neo Tokyo Skyline & Sakura Moon
+- `03-super-saiyan-god.svg` — Divine Fiery Aura Burst
+- `04-rtx-obsidian-raytrace.svg` — Ray-Traced Poly Mesh Refraction
+- `05-mecha-eva-unit01.svg` — AT-Field Octagonal Barrier
+- `06-quantum-matrix.svg` — Quantum Data Cascade
+- `07-arcane-hextech.svg` — Hextech Core & Gilded Runes
+- `08-ghost-netrunner.svg` — Neural Circuit Pathways
+- `09-cyberpunk-edgerunner.svg` — Sandevistan Motion Blur
+- `10-cosmic-nebula.svg` — Ultraviolet Celestial Galaxy
 
 ---
 
-## 🛠️ Local Development & Building
+## 🚀 Installation Guide
 
-To rebuild or package the `.vsix` locally:
+### Option 1: 1-Click Install via VSIX (Easiest for Friends)
+1. Download **`cyber-3d-theme-1.2.0.vsix`** from this repository.
+2. In **Antigravity IDE** or **VS Code**, press `Ctrl + Shift + X` (Extensions).
+3. Click the three dots (**`...`**) in the top right corner of the Extensions panel.
+4. Select **Install from VSIX...** and select the downloaded file.
+
+### Option 2: Terminal Install
 ```bash
-# Package the VSIX file:
-npx --yes @vscode/vsce package
+# In Antigravity IDE:
+antigravity --install-extension cyber-3d-theme-1.2.0.vsix
+
+# Or in VS Code:
+code --install-extension cyber-3d-theme-1.2.0.vsix
 ```
+
+---
+
+## 🎮 How to Switch Themes & Icons
+
+- **Change Color Theme:** Press `Ctrl + K, Ctrl + T` → Select any of the **10 Cyber 3D Themes**.
+- **Change File Icons:** Press `Ctrl + Shift + P` → **`Preferences: File Icon Theme`** → Select **Gamer 3D Isometric Neon**, **Anime Cyber Sakura 3D**, **Developer Matrix 3D**, or **Gamer Obsidian Gold 3D**.
+- **Change Product Icons:** Press `Ctrl + Shift + P` → **`Preferences: Product Icon Theme`** → Select **Cyber Gamer Product Icons** or **Anime Neo Tokyo Product Icons**.
+
+---
+
+## 📦 Automated GitHub Actions Pipeline
+
+Included `.github/workflows/publish.yml` automatically:
+- Builds the `.vsix` on every push to `main`.
+- Creates a GitHub Release with the `.vsix` asset attached whenever you push a version tag (`git tag v1.2.0 && git push origin v1.2.0`).
+- Publishes to the Visual Studio Marketplace if `VS_MARKETPLACE_TOKEN` is configured.
+
+---
 
 ## 📄 License
-MIT © Hari (hari9578@gmail.com)
+MIT © [Hari](https://github.com/Hari-2kd2) (hari9578@gmail.com)

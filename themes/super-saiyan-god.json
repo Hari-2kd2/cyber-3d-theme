@@ -1,0 +1,175 @@
+{
+  "name": "Anime Super Saiyan God",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "focusBorder": "#ffbe0b99",
+    "foreground": "#fef2f2",
+    "widget.shadow": "#000000cc",
+    "selection.background": "#ffbe0b33",
+    "descriptionForeground": "#991b1b",
+    "errorForeground": "#ff0055",
+    "titleBar.activeBackground": "#120707",
+    "titleBar.activeForeground": "#ffbe0b",
+    "titleBar.inactiveBackground": "#120707",
+    "titleBar.inactiveForeground": "#991b1b",
+    "titleBar.border": "#1c0c0c",
+    "activityBar.background": "#120707",
+    "activityBar.foreground": "#ffbe0b",
+    "activityBar.inactiveForeground": "#991b1b88",
+    "activityBar.border": "#1c0c0c",
+    "activityBarBadge.background": "#ff0054",
+    "activityBarBadge.foreground": "#ffffff",
+    "activityBar.activeBorder": "#ffbe0b",
+    "sideBar.background": "#1c0c0c",
+    "sideBar.foreground": "#fef2f2",
+    "sideBar.border": "#2c1212",
+    "sideBarTitle.foreground": "#ffbe0b",
+    "sideBarSectionHeader.background": "#120707",
+    "sideBarSectionHeader.foreground": "#ff0054",
+    "sideBarSectionHeader.border": "#2c1212",
+    "editorGroupHeader.tabsBackground": "#120707",
+    "editorGroupHeader.tabsBorder": "#2c1212",
+    "tab.activeBackground": "#2c1212",
+    "tab.activeForeground": "#ffbe0b",
+    "tab.activeBorderTop": "#ffbe0b",
+    "tab.inactiveBackground": "#120707",
+    "tab.inactiveForeground": "#991b1b",
+    "tab.border": "#1c0c0c",
+    "editor.background": "#1c0c0c",
+    "editor.foreground": "#fef2f2",
+    "editorLineNumber.foreground": "#991b1b77",
+    "editorLineNumber.activeForeground": "#ffbe0b",
+    "editorCursor.foreground": "#00f5d4",
+    "editor.selectionBackground": "#ffbe0b26",
+    "editor.selectionHighlightBackground": "#ff005426",
+    "editor.lineHighlightBackground": "#2c121255",
+    "editor.lineHighlightBorder": "#ffbe0b22",
+    "editorWhitespace.foreground": "#2c1212",
+    "editorIndentGuide.background": "#2c121288",
+    "editorIndentGuide.activeBackground": "#ffbe0b77",
+    "editorBracketMatch.background": "#ff005433",
+    "editorBracketMatch.border": "#ff0054",
+    "statusBar.background": "#120707",
+    "statusBar.foreground": "#991b1b",
+    "statusBar.border": "#ffbe0b33",
+    "statusBar.debuggingBackground": "#ff0054",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBarItem.hoverBackground": "#ffbe0b22",
+    "statusBarItem.remoteBackground": "#ffbe0b",
+    "statusBarItem.remoteForeground": "#120707",
+    "terminal.background": "#120707",
+    "terminal.foreground": "#fef2f2",
+    "terminalCursor.foreground": "#00f5d4",
+    "terminal.ansiCyan": "#ffbe0b",
+    "terminal.ansiMagenta": "#ff0054",
+    "terminal.ansiGreen": "#00f5d4",
+    "terminal.ansiYellow": "#facc15",
+    "terminal.ansiBlue": "#38bdf8",
+    "terminal.ansiRed": "#f43f5e",
+    "button.background": "#ffbe0b",
+    "button.foreground": "#120707",
+    "button.hoverBackground": "#ffbe0bdd",
+    "input.background": "#2c1212",
+    "input.foreground": "#ffffff",
+    "input.border": "#ffbe0b55",
+    "inputOption.activeBorder": "#ff0054",
+    "badge.background": "#ffbe0b",
+    "badge.foreground": "#120707"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#991b1b99",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#00f5d4"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#fb923c"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#ff0054",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#ffbe0b"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "variable.other"
+      ],
+      "settings": {
+        "foreground": "#fef2f2"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#ff0054",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "constant.language",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "#f59e0b"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#991b1b"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#facc15"
+      }
+    }
+  ]
+}

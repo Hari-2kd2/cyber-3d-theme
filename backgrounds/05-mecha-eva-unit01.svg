@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <radialGradient id="g5" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#21123b"/>
+      <stop offset="70%" stop-color="#0d0818"/>
+      <stop offset="100%" stop-color="#05030a"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#g5)"/>
+  <!-- AT-Field Octagonal Rings -->
+  <polygon points="960,360 1140,435 1215,615 1140,795 960,870 780,795 705,615 780,435" fill="none" stroke="#f97316" stroke-width="3" opacity="0.45"/>
+  <polygon points="960,420 1080,470 1130,590 1080,710 960,760 840,710 790,590 840,470" fill="none" stroke="#22c55e" stroke-width="2" opacity="0.55"/>
+</svg>
