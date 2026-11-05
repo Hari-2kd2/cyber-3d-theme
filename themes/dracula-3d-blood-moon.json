@@ -1,0 +1,175 @@
+{
+  "name": "Dracula 3D Blood Moon",
+  "type": "dark",
+  "semanticHighlighting": true,
+  "colors": {
+    "focusBorder": "#8be9fd99",
+    "foreground": "#f8f8f2",
+    "widget.shadow": "#000000cc",
+    "selection.background": "#8be9fd33",
+    "descriptionForeground": "#6272a4",
+    "errorForeground": "#ff0055",
+    "titleBar.activeBackground": "#14121f",
+    "titleBar.activeForeground": "#8be9fd",
+    "titleBar.inactiveBackground": "#14121f",
+    "titleBar.inactiveForeground": "#6272a4",
+    "titleBar.border": "#1e192b",
+    "activityBar.background": "#14121f",
+    "activityBar.foreground": "#8be9fd",
+    "activityBar.inactiveForeground": "#6272a488",
+    "activityBar.border": "#1e192b",
+    "activityBarBadge.background": "#ff5555",
+    "activityBarBadge.foreground": "#ffffff",
+    "activityBar.activeBorder": "#8be9fd",
+    "sideBar.background": "#1e192b",
+    "sideBar.foreground": "#f8f8f2",
+    "sideBar.border": "#282a36",
+    "sideBarTitle.foreground": "#8be9fd",
+    "sideBarSectionHeader.background": "#14121f",
+    "sideBarSectionHeader.foreground": "#ff5555",
+    "sideBarSectionHeader.border": "#282a36",
+    "editorGroupHeader.tabsBackground": "#14121f",
+    "editorGroupHeader.tabsBorder": "#282a36",
+    "tab.activeBackground": "#282a36",
+    "tab.activeForeground": "#8be9fd",
+    "tab.activeBorderTop": "#8be9fd",
+    "tab.inactiveBackground": "#14121f",
+    "tab.inactiveForeground": "#6272a4",
+    "tab.border": "#1e192b",
+    "editor.background": "#1e192b",
+    "editor.foreground": "#f8f8f2",
+    "editorLineNumber.foreground": "#6272a477",
+    "editorLineNumber.activeForeground": "#8be9fd",
+    "editorCursor.foreground": "#50fa7b",
+    "editor.selectionBackground": "#8be9fd26",
+    "editor.selectionHighlightBackground": "#ff555526",
+    "editor.lineHighlightBackground": "#282a3655",
+    "editor.lineHighlightBorder": "#8be9fd22",
+    "editorWhitespace.foreground": "#282a36",
+    "editorIndentGuide.background": "#282a3688",
+    "editorIndentGuide.activeBackground": "#8be9fd77",
+    "editorBracketMatch.background": "#ff555533",
+    "editorBracketMatch.border": "#ff5555",
+    "statusBar.background": "#14121f",
+    "statusBar.foreground": "#6272a4",
+    "statusBar.border": "#8be9fd33",
+    "statusBar.debuggingBackground": "#ff5555",
+    "statusBar.debuggingForeground": "#ffffff",
+    "statusBarItem.hoverBackground": "#8be9fd22",
+    "statusBarItem.remoteBackground": "#8be9fd",
+    "statusBarItem.remoteForeground": "#14121f",
+    "terminal.background": "#14121f",
+    "terminal.foreground": "#f8f8f2",
+    "terminalCursor.foreground": "#50fa7b",
+    "terminal.ansiCyan": "#8be9fd",
+    "terminal.ansiMagenta": "#ff5555",
+    "terminal.ansiGreen": "#50fa7b",
+    "terminal.ansiYellow": "#facc15",
+    "terminal.ansiBlue": "#38bdf8",
+    "terminal.ansiRed": "#f43f5e",
+    "button.background": "#8be9fd",
+    "button.foreground": "#14121f",
+    "button.hoverBackground": "#8be9fddd",
+    "input.background": "#282a36",
+    "input.foreground": "#ffffff",
+    "input.border": "#8be9fd55",
+    "inputOption.activeBorder": "#ff5555",
+    "badge.background": "#8be9fd",
+    "badge.foreground": "#14121f"
+  },
+  "tokenColors": [
+    {
+      "scope": [
+        "comment",
+        "punctuation.definition.comment"
+      ],
+      "settings": {
+        "foreground": "#6272a499",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "punctuation.definition.string"
+      ],
+      "settings": {
+        "foreground": "#50fa7b"
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric"
+      ],
+      "settings": {
+        "foreground": "#fb923c"
+      }
+    },
+    {
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "storage.type"
+      ],
+      "settings": {
+        "foreground": "#ff5555",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.function",
+        "support.function"
+      ],
+      "settings": {
+        "foreground": "#8be9fd"
+      }
+    },
+    {
+      "scope": [
+        "variable",
+        "variable.other"
+      ],
+      "settings": {
+        "foreground": "#f8f8f2"
+      }
+    },
+    {
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#ff5555",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "constant.language",
+        "support.constant"
+      ],
+      "settings": {
+        "foreground": "#f59e0b"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.separator",
+        "punctuation.terminator"
+      ],
+      "settings": {
+        "foreground": "#6272a4"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#facc15"
+      }
+    }
+  ]
+}

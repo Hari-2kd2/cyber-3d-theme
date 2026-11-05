@@ -1,8 +1,8 @@
 {
   "name": "cyber-3d-theme",
-  "displayName": "Cyber 3D Suite \u2014 10 Gamer, Anime & Dev Themes",
-  "description": "10 Animated High-Level 3D Themes, 4 File Icon Themes, 2 Product Icon Themes, Fluid Caret Physics, and 3D Wallpapers",
-  "version": "1.2.0",
+  "displayName": "Cyber 3D Suite \u2014 15 Gamer, Anime & Dev Themes",
+  "description": "15 Animated High-Level 3D Themes (including OLED Void, Dracula, Tokyo Night, Nordic Aurora), 4 File Icon Themes, 2 Product Icon Themes, and Custom CSS animations",
+  "version": "1.3.0",
   "publisher": "hari9578",
   "engines": {
     "vscode": "^1.60.0"
@@ -69,6 +69,31 @@
         "label": "Developer Cosmic Nebula 3D",
         "uiTheme": "vs-dark",
         "path": "./themes/cosmic-nebula-3d.json"
+      },
+      {
+        "label": "Abyss Deep Void (OLED Black)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abyss-deep-void.json"
+      },
+      {
+        "label": "Tokyo Night Cyber Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/tokyo-night-cyber.json"
+      },
+      {
+        "label": "Dracula 3D Blood Moon",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dracula-3d-blood-moon.json"
+      },
+      {
+        "label": "Nordic Aurora 3D Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/nordic-aurora-dark.json"
+      },
+      {
+        "label": "Midnight Carbon Minimalist",
+        "uiTheme": "vs-dark",
+        "path": "./themes/midnight-carbon.json"
       }
     ],
     "iconThemes": [
