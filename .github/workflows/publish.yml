@@ -48,3 +48,4 @@ jobs:
         run: vsce publish -p ${{ secrets.VS_MARKETPLACE_TOKEN }}
         env:
           VS_MARKETPLACE_TOKEN: ${{ secrets.VS_MARKETPLACE_TOKEN }}
+
